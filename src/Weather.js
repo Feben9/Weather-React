@@ -7,7 +7,6 @@ export default function Weather() {
         <div className="weather-app-data">
           <div>
             <h1 className="weather-app-city" id="weather-app-city">Addis Ababa</h1>
-            <button className="btn btn-primary"> Home </button>
             <div className="weather-app-date">
               <span id="current-time">Tuesday, 16:25</span>
               <br />

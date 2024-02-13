@@ -1,17 +1,17 @@
 .search-form {
     padding: 10px;
-    margin: 30px;
+    margin: 10px;
     font-size: 20px;
     border: 1px solid white;
 }
 
 .entry {
-    width: 40lvw;
+    
     border-color: steelblue;
 }
 
 .button {
     background-color: steelblue;
     color: white;
-    width: 10lvw;
+   
 }
