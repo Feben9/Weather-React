@@ -1,12 +1,24 @@
+body{
+  background-color: #ececec;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
-  min-height: 100vh;
-  width: 100lvw;
+  
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  margin: 0 auto;
+  width: 700px;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 0 0 30px rgba(145, 152, 229, 0.2);
+  outline: 1px solid white;
+  outline-offset: 30px;
 }

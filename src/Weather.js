@@ -7,6 +7,7 @@ export default function Weather() {
         <div className="weather-app-data">
           <div>
             <h1 className="weather-app-city" id="weather-app-city">Addis Ababa</h1>
+            <button className="btn btn-primary"> Home </button>
             <div className="weather-app-date">
               <span id="current-time">Tuesday, 16:25</span>
               <br />
@@ -25,60 +26,62 @@ export default function Weather() {
           </div>
         </div>
         <div class="forecast-container" id="forecast">
-        <div class="each-day">
-          <p>Tuesday</p>
-          <div class="forecast-icon">
-            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" alt="" width="50px" height="50px" />
+          
+          <div class="each-day">
+            <p>Tuesday</p>
+            <div class="forecast-icon">
+              <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" alt="" width="50px" height="50px" />
+            </div>
+            <div class="forecast-temp">
+              <span class="forecast-temp-high">25° |</span>
+              <span class="forecast-temp-low"> <strong>12°</strong></span>
+            </div>
           </div>
-          <div class="forecast-temp">
-            <span class="forecast-temp-high">25° |</span>
-            <span class="forecast-temp-low"> <strong>12°</strong></span>
+          
+          <div class="each-day">
+            <p>Wednesday</p>
+            <div class="forecast-icon">
+              <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png" alt="" width="50px" height="50px" />
+            </div>
+            <div class="forecast-temp">
+              <span class="forecast-temp-high">24° |</span>
+              <span class="forecast-temp-low"> <strong>13°</strong></span>
+            </div>
           </div>
-        </div>
+          
+          <div class="each-day">
+            <p>Thursday</p>
+            <div class="forecast-icon">
+              <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="" width="50px" height="50px" />
+            </div>
+            <div class="forecast-temp">
+              <span class="forecast-temp-high">24° |</span>
+              <span class="forecast-temp-low"> <strong>13°</strong></span>
+            </div>
+          </div>
+          
+          <div class="each-day">
+            <p>Friday</p>
+            <div class="forecast-icon">
+              <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="" width="50px" height="50px" />
+            </div>
+            <div class="forecast-temp">
+              <span class="forecast-temp-high">20° |</span>
+              <span class="forecast-temp-low"> <strong>15°</strong></span>
+            </div>
+          </div>
+          
+          <div class="each-day">
+            <p>Saturday</p>
+            <div class="forecast-icon">
+              <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="" width="50px" height="50px" />
+            </div>
+            <div class="forecast-temp">
+              <span class="forecast-temp-high">22° |</span>
+              <span class="forecast-temp-low"> <strong>14°</strong></span>
+            </div>
+          </div>
         
-        <div class="each-day">
-          <p>Wednesday</p>
-          <div class="forecast-icon">
-            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png" alt="" width="50px" height="50px" />
-          </div>
-          <div class="forecast-temp">
-            <span class="forecast-temp-high">24° |</span>
-            <span class="forecast-temp-low"> <strong>13°</strong></span>
-          </div>
-        </div>
-        
-        <div class="each-day">
-          <p>Thursday</p>
-          <div class="forecast-icon">
-            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="" width="50px" height="50px" />
-          </div>
-          <div class="forecast-temp">
-            <span class="forecast-temp-high">24° |</span>
-            <span class="forecast-temp-low"> <strong>13°</strong></span>
-          </div>
-        </div>
-        
-        <div class="each-day">
-          <p>Friday</p>
-          <div class="forecast-icon">
-            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="" width="50px" height="50px" />
-          </div>
-          <div class="forecast-temp">
-            <span class="forecast-temp-high">20° |</span>
-            <span class="forecast-temp-low"> <strong>15°</strong></span>
-          </div>
-        </div>
-        
-        <div class="each-day">
-          <p>Saturday</p>
-          <div class="forecast-icon">
-            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="" width="50px" height="50px" />
-          </div>
-          <div class="forecast-temp">
-            <span class="forecast-temp-high">22° |</span>
-            <span class="forecast-temp-low"> <strong>14°</strong></span>
-          </div>
-        </div>
         </div>
       </div>
     );
