@@ -2,15 +2,14 @@ import React, {useState} from "react";
 import "./Weather.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import WeatherIcon from "./WeatherIcon";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    //console.log(response.data);
-    //axios.interceptors.response.use((error: AxiosError) => { if (Axios.isCancel(error)) { throw new axios.Cancel('Operation canceled by the user.'); } });
-    //return Promise.reject(console.l0.0og('Token inválido. Entre novamente.'))
+    console.log(response.data);
     setWeatherData({
       ready: true,
       coordinates: response.data.coord,
@@ -57,10 +56,10 @@ export default function Weather(props) {
               <WeatherInfo data={weatherData} />
               <div className="weather-app-temperature">
                   <div className="weather-app-icon" id="icon">
-                    <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png" class="weather-app-icon" alt="img-placeholder"/>
+                    <WeatherIcon code={weatherData.icon} size={100} />
                   </div>
                   <div className="weather-app-temperature-value" id="temperature-value">
-                      25
+                    {Math.round(weatherData.temperature)}
                   </div>
                   <div className="weather-app-unit">
                       °C
