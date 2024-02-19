@@ -61,3 +61,11 @@
     <span class="forecast-temp-low"> <strong>14°</strong></span>
   </div>
 </div>
+
+
+.weather-app-details {
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+}

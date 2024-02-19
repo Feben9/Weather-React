@@ -55,13 +55,13 @@ export default function Weather(props) {
           <div className="weather-app-data">
               <WeatherInfo data={weatherData} />
               <div className="weather-app-temperature">
-                  <div className="weather-app-icon" id="icon">
-                    <WeatherIcon code={weatherData.icon} size={100} />
+                  <div className="icon">
+                    <WeatherIcon code={weatherData.icon} size={120}/>
                   </div>
-                  <div className="weather-app-temperature-value" id="temperature-value">
+                  <div className="temperature-value">
                     {Math.round(weatherData.temperature)}
                   </div>
-                  <div className="weather-app-unit">
+                  <div className="unit">
                       °C
                   </div>
               </div>
