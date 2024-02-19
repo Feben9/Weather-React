@@ -7,9 +7,6 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header >
-          Weather App With React
-        </header>
         <main>
           <Weather defaultCity="Addis Ababa"/>
         </main>

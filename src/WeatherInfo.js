@@ -5,7 +5,7 @@ import "./Weather.css";
 export default function WeatherInfo(props) {
     return (
         <div className="weather-app-city">
-            <h1 className="text-start">
+            <h1 className="text-start city-name">
                 {props.data.city}
             </h1>
             <div className="weather-app-date">

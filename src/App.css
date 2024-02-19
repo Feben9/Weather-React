@@ -14,7 +14,7 @@ body{
   font-size: calc(10px + 2vmin);
   color: white;
 
-  margin: 0 auto;
+  margin: 50px auto;
   width: 700px;
   height: fit-content;
   border-radius: 10px;

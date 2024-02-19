@@ -1,3 +1,8 @@
+form {
+    margin: 10px auto;
+    padding: 30px 50px 0px 50px;
+}
+
 .entry {
     border-color: steelblue;
     padding: 10px;
@@ -19,7 +24,7 @@
 .weather-app-data {
     display: flex;
     justify-content: space-around;
-    margin: 5px auto;
+    margin: 25px auto;
     width: 600px;
 }
 
@@ -30,11 +35,17 @@
     line-height: 48px;
 }
 
+.city-name {
+    margin-bottom: 20px;
+}
+
 .weather-app-date {
     font-size: 12px;
     font-family: 'Roboto Slab', serif;
     color: rgba(255, 255, 255, 0.6);
     text-align: left;
+    line-height: 1px;
+    
 }
 
 .weather-app-details {
@@ -42,6 +53,7 @@
     line-height: 20px;
     color: rgba(255, 255, 255, 0.6);
     text-align: left;
+    margin-top: 20px;
 }
 
 .weather-app-temperature {
